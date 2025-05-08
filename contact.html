@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact us</title>
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <section class="banner">
+            <img src="Images/Seal_of_Virginia_(1894).png" alt="Virginia Seal" width="120">
+            <nav class="banner_nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html" target="_blank">Ask us a question</a></li>
+                </ul>
+            </nav>
+            <aside>
+                <p><em>This is a student poject.</em></p>
+                <ul class="sources">
+                <li>Images:</li>
+                    <ul>
+                    <li><cite>VA Seal - US Public Domain</cite></li>
+                    </ul>
+                </ul>
+            </aside>
+            <header class="site_header">
+                <h1>The Commonwealth of Virginia</h1>
+            </header>
+        </section>
+        <section class="submit form">
+            <h2>Questions or Comments?</h2>
+            <div>
+            <p>Steps for submitting your question or comment:</p>
+                <ol type="1">
+                    <li>Enter your email in the email field.</li>
+                    <li>Confirm your email.</li>
+                    <li>Fill out text field.</li>
+                    <li>Wait for a response from us. Expected response is currently: <em>54-72 years</em></li>
+                </ol>
+            </div>
+            <div id="submission_form">
+                <form action="" method="GET">
+                    <p>
+                        <label for="email_addr">Email:</label>
+                        <input type="email" name="email_addr" id="email_addr" placeholder="example@domain.com">
+                    </p>
+                    <p>
+                        <label for="confirm_email">Confirm email:</label>
+                        <input type="email" name="confirm_email" id="confirm_email" placeholder="example@domain.com">
+                    </p>
+                    <p id="warning"><em>Email fields do not match.</em></p>
+                    <p>
+                        <label for="user_text">Enter comment:</label>
+                        <textarea name="user_text" id="user_text" rows="4" cols="50"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Submit">
+                    </p>
+                </form>
+            </div>
+        </section>
+        <script>
+            let userEmail = document.getElementById("email_addr");
+            let confirmEmail = document.getElementById("confirm_email");
+            let submissionForm = document.getElementById("submission_form")
+            let warning = document.getElementById("warning");
+            confirmEmail.oninput = function() {
+                if (userEmail.value !== confirmEmail.value) {
+                    warning.style.display = "contents";
+                }
+                else {
+                    warning.style.display = "none";
+                }
+            }
+            submissionForm.onsubmit = function() {
+                if (userEmail.value !== confirmEmail.value) {
+                    alert("Email fields do not match.");
+                }
+            }
+        </script>
+    </body>
+</html>

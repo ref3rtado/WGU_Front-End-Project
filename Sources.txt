@@ -1,0 +1,55 @@
+HOME
+Sources:
+All images sourced from Wikimedia Commons
+VA Seal - US Public Domain
+WillMary - US Public Domain
+Christopher Columbus statue by Bartholdi.jpg | Creative Commons License | No Alterations Made | Author Kenneth C. Zirkel
+123Net_Data_Center_(DC2).jpg | Creative Commons License | Alteration: Cropped | Author: 123Net
+
+
+Sources:
+Images:
+VA Seal - US Public Domain
+Region - "Location within Virginia" | Wikipedia.org | No author listed
+Information:
+Founded Date, Region - Wikipedia
+Population, Income - U.S. Census Data
+
+Williamsburg
+founded: 1632 | State 1607
+pop: 15,425 (sub) | State: 8,631,393
+Med income: 70,206 | state 90,947
+region: SE
+
+ashburn
+Founded: 1802 (wikipedia) | State 1607
+pop: 46,349 (sub) | State: 8,631,393
+Median income: 152,094 | StateAvg: 90,947
+region: North
+
+Richmond
+Founded: 1742 | State 1607
+pop: 229,247 (urb) | State: 8,631,393
+med inc: 62,671 | state 90,947
+region: east
+----------
+CSS requirements:
+
+1.  one font-family declaration used at least once in the HTML files -
+
+2.  a :hover pseudo-class to create a rollover effect for the navigation links
+
+3.  a float property to position one HTML element within the website to the side of another element - 
+
+4.  absolute positioning on one page that changes the position of an element -
+
+5.  relative positioning on one page that changes the position of an element -
+
+6.  one of each of the following types of CSS selectors:
+
+•   a functioning element selector that is used at least once on the website -
+
+•   a functioning class selector that is used twice on the same HTML page
+
+•   a functioning id selector used at least once on the website
+
